@@ -5,6 +5,7 @@
     <link rel = "stylesheet" href = "../style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
     <div class = "jsmain"> 
         <div class = "htmlheader"> 
          <h3> Basic Information for JavaScript </h3>
+         <button id = "orangebtn"> Big Orange Button </button>
         </div>
 
         <div class = "info-boxes1"> 
@@ -95,10 +97,24 @@
             </div>
 
         </div> 
+
+
+
+        <div class = "info-boxes1"> 
+
+            <div class = "info-box1"> 
+                <h2> User Inputs </h2>
+                <p> Although user input can be taken using "prompt()", the better way is either ".onclick()" or ".addEventListener()" The parameters of ".addEventListener()" shoud inclide the type "'onclock'" + a function that does something. Adding () to the function runs it even wthout a click.</p>
+            </div>
+
+            <div class = "info-box1"> 
+                <h2> querySelector </h2>
+                <p> querySelector allows JS files to access HTML elements. The syntax for them is "const div = document.querySelector(box)". Common Syntax: parentNode.appendChild(childNode. element.style.cssText="". It is better to toggle a CSS style. element = document.querySelector("div"), element.classList.toggle("style") </p>
+            </div>
+
+        </div> 
         
 
     </div>
-
-
 </body>
 </html>
