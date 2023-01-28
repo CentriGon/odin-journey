@@ -56,7 +56,7 @@ h2 {
     margin-top: 100px;
     padding-top: 10px;
     background-color: white;
-    height: 1200px;
+    height: 1500px;
     width: 1175px;
     display: flex;
     flex-direction: column;
@@ -71,10 +71,11 @@ h2 {
     margin: 20px;
     width: 1100px;
     min-height: 260px;
-    
+    flex-wrap: wrap;
 }
 
-.info-box1 {
+.info-box1,
+.info-box1-shadow {
     background-color: rgba(255, 228, 196, 0.623);
     flex:1;
     max-width:  450px;
@@ -87,7 +88,8 @@ h2 {
     margin: 30px 50px 30px 50px;
 }
 
-.info-box1 h2 {
+.info-box1 h2,
+.info-box1-shadow h2 {
     color: white;
     background-color: black;
     height: 30px;
@@ -138,14 +140,14 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 0px 10px 0px 10px;
-    border: 7px solid rgb(255, 115, 0);
+    border: 7px solid black;
     border-radius: 5px;
     margin: 30px 50px 30px 50px;
 }
 
 .jsmain .info-box1 h2 {
     color: white;
-    background-color: rgb(255, 115, 0);
+    background-color: black;
     height: 30px;
     width: 250px;
     border-radius: 8px;
@@ -158,4 +160,9 @@ h2 {
     width: 120px;
     height: 70px;
     font-size: 18px;
+}
+
+.info-box1-shadow {
+    box-shadow: 5px 5px 5px 5px rgb(71, 71, 71);
+    
 }
